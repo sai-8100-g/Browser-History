@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.search-input-app-logo-container {
+  display: flex;
+  background-color: #3367d6;
+  padding: 10px;
+}
+
+.warning-msg {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.app-logo-container {
+  width: 20%;
+}
+
+.input-search-logo-container {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 40%;
+  background-color: #2850a7;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #ececec;
+  padding-left: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input-search-logo-container img {
+  background-color: #2850a7;
+  border: 2px;
+  margin-right: 2px;
+  padding: 4px 8px;
+}
+
+.ul-container {
+  width: 80%;
+  box-shadow: 0 0 5px black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.ul-container ul {
+  width: 100%;
+  list-style: none;
+}
